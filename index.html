@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Noemy Rivera Madrid">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="mi portafolio,desarrolladora frontend, habilidades, proyectos, contacto">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" />
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/ef7a450736.js" crossorigin="anonymous"></script>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Mono&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#header">
+                <img src="./assets/img/Sin título.png" alt="logo" class="image__nav">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page" href="#header">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#skills">Mis Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-current="page" href="#project">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="header" class="header">
+        <div class="container py-5 mt-3">
+            <div class="row">
+                <!-- Columna para la ilustración -->
+                <div class="col-md-6 col-12">
+                    <img src="./assets/img/frontend.svg" alt="Ilustración" class="img-fluid">
+                </div>
+                <!-- Columna para el texto y el botón -->
+                <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
+                    <h1 class="fw-bold">Noemy Rivera Madrid</h1>
+                    <h3 class="text-primary">Desarrolladora FrontEnd</h3>
+                    <p class="text-p">Lorem Ipsumdolor sit amet consectetur, adipisicing elit. Dicta blanditid
+                        eligendi ipsa
+                        quos reiciendis! Excepturl consequatur dolorem laudantium eaque corrupti, voluptatum
+                        beatae suscipit in, sed natus ipsa accusantium unde ipsum.
+                    </p>
+                    <button type="button" class="btn btn-danger col-md-3">Contáctame</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Sección de mis habilidades-->
+        <section id="skills" class="habiilidades">
+            <div class="container py-4 my-2">
+                <h2 class="text-center fw-bold ">Mis Habilidades</h2>
+                <div class="row py-4 d-flex">
+                    <div class="col-md col-6  d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-html5" style="color: #dd4b25" alt="html" class="image_skills mx-3">
+                            HTML</i>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-css3-alt" style="color: #379ad6" alt="css" class="image_skills mx-3">
+                            CSS</i>
+                    </div>
+                    <div class="col-md col-6    d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-sass" style="color: #cd669c" alt="sass" class="image_skills mx-3">
+                            Sass</i>
+                    </div>
+                    <div class="col-md col-6  d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-bootstrap" style="color: #533b78" alt="bootstrap"
+                            class="image_skills mx-3"> Bootstrap</i>
+                    </div>
+                    <div class="col-md col-6  d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-git-alt" style="color: #f0503a" alt="git" class="image_skills mx-3">
+                            Git</i>
+                    </div>
+                    <div class="col-md col-6  d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-github" style="color: #212529" alt="github" class="image_skills mx-3">
+                            GitHub</i>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-square-js" style="color: #e8d44d" alt="javascript"
+                            class="image_skills rounded mx-3"> JavaScript</i>
+                    </div>
+                    <div class="col-md col-6 d-flex justify-content-left align-items-center">
+                        <i class="fa-brands fa-vuejs" style="color: #3fb27f" alt="vue" class="image_skills mx-3">
+                            Vue</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección de mis proyectos-->
+        <section id="project" class="proyect">
+            <div class="container py-4 my-2">
+                <h2 class="fw-bold text-center">Mis Proyectos</h2>
+                <div class="row my-2 py-4 d-flex justify-content-center">
+                    <!--Card-->
+                    <div class="card col-md-3 col-6 mx-2  mb-2 border-0" style="width: 18rem;">
+                        <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffee</h5></a>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 col-6 mx-2  mb-2 border-0" style="width: 18rem;">
+                        <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffee</h5></a>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 col-6 mx-2  mb-2 border-0" style="width: 18rem;">
+                        <img src="./assets/img//meetcoffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffee</h5></a>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 col-6 mx-2  mb-2 border-0" style="width: 18rem;">
+                        <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffee</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Formulario de contacto y páginas de contactos-->
+        <footer id="contact" class="contact">
+            <div class="container py-4 my-2">
+                <h2 class="fw-bold text-center">Contáctame</h2>
+                <div class="row  my-2 py-4">
+                    <!--Formulario-->
+                    <div class="col-md-6 col-12 mb-2">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 mb-3">
+                                    <input type="text" class="form-control" id="name" aria-describedby="Nombre"
+                                        placeholder="Nombre">
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <input type="text" class="form-control" id="last-name" aria-describedby="Apellido"
+                                        placeholder="Apellido">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" aria-describedby="Email"
+                                    placeholder="Tu Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Escribe tu Mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger col-md-3 col-12">Enviar</button>
+                        </form>
+                    </div>
+                    <!--Datos de contacto-->
+                    <div class="container col-md-6 col-12">
+                        <div class="row my-2 mx-2">
+                            <div class="d-flex">
+                                <i class="fa fa-phone"></i>
+                                <p class="text-secondary m-0 mx-2">+56920299429</p>
+                            </div>
+                            <div class="d-flex my-2">
+                                <i class="fa fa-envelope"></i>
+                                <p class="text-secondary m-0 mx-2">n.rivera2221@gmail.com</p>
+                            </div>
+                            <div class="d-flex my-2">
+                                <i class="fa fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/noemy-rivera-madrid-08086233/" target="_blank"
+                                    class="m-0 mx-2">Mi Linkedin</a>
+                            </div>
+                            <div class="d-flex my-2">
+                                <i class="fa fa-github"></i>
+                                <a href="https://github.com/nrivera2221" target="_blank" class="m-0 mx-2">Mi GitHub</a>
+                            </div>
+                            <div class="d-flex my-2">
+                                <i class="fa fa-instagram"></i>
+                                <a href="https://www.instagram.com/mystical.sheep/" target="_blank" class="m-0 mx-2">Mi
+                                    Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

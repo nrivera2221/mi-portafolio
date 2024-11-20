@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+#contact{
+    background: variables.$success;
+    h2{
+        color: variables.$warning;
+    }
+    i{
+        font-size: 25px;
+        color: variables.$light;
+    }
+}

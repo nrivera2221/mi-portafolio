@@ -1,0 +1,18 @@
+@use "../abstracts/variables";
+
+.habiilidades{
+    background: variables.$primary;
+    h2{
+        color: variables.$warning;
+    }
+}
+
+.proyect{
+    h2{
+        color: variables.$warning;
+    }
+    .card-title{
+        color: variables.$light;
+        font-weight: 600;
+    }
+}

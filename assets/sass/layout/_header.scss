@@ -1,0 +1,15 @@
+@use "../abstracts/variables";
+
+header {
+    .img_header {
+        max-width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        color: variables.$warning;
+    }
+    p{
+        color: variables.$light;
+    }
+}
